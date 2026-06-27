@@ -66,7 +66,7 @@ Steps to get UT99v400 files on the windows 98 hard drive and run it with multipl
 9. Then go to settings - about device - scroll down to IP Address and type that into open location on the pc running the VM
 10. Add the port numbers which by default is :7777
 11. Click on start not dedicated on the android tablet.
-12. Click on ok button on the open location window after the map is loaded on the android device.
+12. Click on ok button on the open location window on win98 after the map is loaded on the android device.
 13. Enjoy!!! 😁
 
 Credit goes to the creators of these programs and game ports!
