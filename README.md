@@ -23,17 +23,17 @@ How to Setup 86box for Windows 98 in VM:
 6. Open 86Box and setup the devices out of the millions of settings it has!!
 7. I saved you a step of going through an entire guide and instead just add these devices:
 
-Machine type: Miscellaneous (Microsoft Machine Type under miscellaneous)
-Machine: ASUS TX97 (i430TX)
-CPU: Intel Pentium 200 MMX
-RAM: 1024MB
-Graphics card: S3 ViRGE/DX
-Graphics accelerator: 3Dfx Voodoo 2
-Input device: Standard PS/2 mouse
-Sound card: Sound Blaster 32 PnP
-Hard disk: 2GB IDE VHD
-Floppy: 3.5" 1.44MB + 5.25" 360k
-CD-ROM drives: Two ATAPI 72x
+1. Machine type: Miscellaneous (Microsoft Machine Type under miscellaneous)
+2. Machine: ASUS TX97 (i430TX)
+3. CPU: Intel Pentium 200 MMX
+4. RAM: 1024MB
+5. Graphics card: S3 ViRGE/DX
+6. Graphics accelerator: 3Dfx Voodoo 2
+7. Input device: Standard PS/2 mouse
+8. Sound card: Sound Blaster 32 PnP
+9. Hard disk: 2GB IDE VHD
+10. Floppy: 3.5" 1.44MB + 5.25" 360k
+11. CD-ROM drives: Two ATAPI 72x
 
 8. Download Windows 98 SE OEM from here: https://archive.org/download/windows-98-second-edition_202407/Windows%2098%20Second%20Edition.iso
 9. CD Keys from that archive.org download page: (R667M-TF9CG-MJMTM-WHPWQ-G6XGG) (VY24V-D7M3M-6VGCC-C6667-6Q3G3)
