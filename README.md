@@ -53,7 +53,7 @@ Steps to get UT99v400 files on the windows 98 hard drive and run it with multipl
 17. Enjoy!!! 😁
 
 [EDIT] The sound for windows 98 in VMware needs to be fixed somehow.
-I got it to play wound but in UT99 it sounds robotic and weird.
+I got it to play sound but in UT99 it sounds robotic and weird.
 I will update these instructions when I get it fixed! 😊
 
 Credit goes to the creators of these programs and game ports!
