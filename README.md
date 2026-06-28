@@ -50,6 +50,10 @@ Steps to get UT99v400 files on the windows 98 hard drive and run it with multipl
 13. Find your android's devices IP address by going to settings - About device - scroll down and you should see it.
 14. On the computer go to multiplayer then open location then put in your android's devices IP address.
 15. Click on ok button on the open location window on win98 after the map is loaded on the android device.
-16. Enjoy!!! 😁
+17. Enjoy!!! 😁
+
+[EDIT] The sound for windows 98 in VMware needs to be fixed somehow.
+I got it to play wound but in UT99 it sounds robotic and weird.
+I will update these instructions when I get it fixed! 😊
 
 Credit goes to the creators of these programs and game ports!
