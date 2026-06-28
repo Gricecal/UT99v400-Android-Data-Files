@@ -13,60 +13,43 @@ Steps to install UT99 v400 Android data files version:
 8. Wait for it to finish.
 9. You're all set for the next instructions!
 
-How to Setup 86box for Windows 98 in VM:
+How to Setup VMWare for Windows 98 in VM:
 
-1. Go here to download 86Box: https://github.com/86Box/86Box/releases/tag/v6.0
-2. Download Source code.zip from here for 86Box: https://github.com/86Box/roms/releases
-3. Extract 86Box and put it inside a folder under C drive.
-4. Extract roms into the folder of 86Box.
-5. Rename the roms folder to just "roms"
-6. Open 86Box and setup the devices out of the millions of settings it has!!
-7. I saved you a step of going through an entire guide and instead just add these devices:
+1. Go here to download VMWare: https://www.techspot.com/downloads/189-vmware-workstation-for-windows.html
+2. Download VMWare Pre2k Tools exe here: https://archive.org/download/winPreVista/winPre2k.iso
+3. Run the Setup for VMWare and then after it's done click new machine.
+4. Name it Windows 98 and download win98.iso here: https://archive.org/download/windows-98-second-edition_202407/Windows%2098%20Second%20Edition.iso
 
-1. Machine type: Miscellaneous (Microsoft Machine Type under miscellaneous)
-2. Machine: ASUS TX97 (i430TX)
-3. CPU: Intel Pentium 200 MMX
-4. RAM: 1024MB
-5. Graphics card: S3 ViRGE/DX
-6. Graphics accelerator: 3Dfx Voodoo 2
-7. Input device: Standard PS/2 mouse
-8. Sound card: Sound Blaster 32 PnP
-9. Hard disk: 2GB IDE VHD
-10. Floppy: 3.5" 1.44MB + 5.25" 360k
-11. CD-ROM drives: Two ATAPI 72x
-
-8. Download Windows 98 SE OEM from here: https://archive.org/download/windows-98-second-edition_202407/Windows%2098%20Second%20Edition.iso
 9. CD Keys from that archive.org download page: (R667M-TF9CG-MJMTM-WHPWQ-G6XGG) (VY24V-D7M3M-6VGCC-C6667-6Q3G3)
-10. Now run the VM and get to bios/setup in the VM.
-11. Got to change the boot sequence and change it from C,A to A,C hit esc and then press F10 to save changes.
-12. Click Media on the toolbar and then hover over CD-ROM then click on existing and choose Win98.iso
-13. Hit Enter when the VM says "Failed to boot Harddrive. Insert system disk and hit enter"
-14. Next it should give an image like this:
-
-<img width="720" height="400" alt="17825508413286640347705764515931" src="https://github.com/user-attachments/assets/40431ed9-102b-4d33-bc79-2d241335e021" />
-
-15. Type the number one and hit enter to boot off of the win98.iso from the CD-ROM.
-16. Next follow the prompts and choose large disk format and boot off of the CD-ROM again.
-17. Keep following prompts to install windows 98 and it will reboot like 3 times during the installation.
-18. Every time it reboots you may now choose to boot off of the hard drive instead.
-19. Make sure to keep the win98.iso mounted in the CD-ROM during the entire installation process.
-20. Congratulations you made it through installing Windows 98 Special Edition OEM!!
-21. You may change your machine type to Super Socket 7 instead of that Microsoft machine type under misc.
+10. Now give the RAM of the VM 1024MB or 1GB!
+11. Make a new harddrive file and give it 8GB.
+12. Click CD-ROM then click on the existing win98.iso file you downloaded.
+13. Sart the VM and go through the setup process and say yes for large harddrive formatting.
+15. Once it is done with the whole setup process and putting in the cd key you are ready to install vmware tools!
+16. Now go and change the VM settings for the CD-ROM drive to be pre2k.iso.
+17. Start the VM and go to my computer and double clifk on the VMware tools cd drive.
+18. Follow all the prompts and wait for it to install.
+19. Now power down the VM and change the CD-ROM to windows 98.iso setup you used to install win98.
+20. Boot up win98 and go to control panel then system then device manager and change the mouse driver to PS/2.
+21. VMware tools installs the VMware mouse driver that doesn't work for UT99.
+22. Now power off the machine and change the CD-ROM to a created .iso from imgburn you can download here: https://www.imgburn.com/index.php?act=download
 
 Steps to get UT99v400 files on the windows 98 hard drive and run it with multiplayer support:
 
-1. Double click the .vhd 2GB file with win98 on it and daemon tools whould mount it
-2. Copy the UT99v400 folder to the hard drive you just mounted
-3. Next unmount the windows 98 .vhd hard drive and run 86Box
-4. Create a shortcut of the exe for UnrealTournament and rename it to whatever you like!
-5. Open the game and choose the 3dfx video card if you have installed the 3dfx video drivers otherwise stick with software.
-6. Go to multiplayer then click on open location under multiplayer tab.
-7. Go to your android tablet or phone and run UT99 native port.
-8. Click on multiplayer then start new multiplayer game under multiplayer tab
-9. Then go to settings - about device - scroll down to IP Address and type that into open location on the pc running the VM
-10. Add the port numbers which by default is :7777
-11. Click on start not dedicated on the android tablet.
-12. Click on ok button on the open location window on win98 after the map is loaded on the android device.
-13. Enjoy!!! 😁
+1. Create an .iso of UT99v400 you folder you put together recently.
+2. To create an .iso in imgburn click on create iso from files/folders and click on the folder icon underneath the file icon.
+3. Next navigate to the folder UT99v400 and click once on the folder and click select and it should show up now.
+4. Click on the magnifying glass over the folder icon to create a name for the saved .iso
+5. Now create the .iso and say no to the first prompt and yes to the second one.
+6. finally wait for it to finish and to to VMware settings and change the CD-ROM to the created .iso
+7. Start the VM for win98 and copy over UT99v400 somewhere on the harddrive.
+8. Wait for it to finish and create a UT99 Android Shortcut on the desktop and run it.
+9. Select Software Renderer for the first time conriguration prompt and click next a few times to run the game.
+10. Hit ESC and go to your android device and launch UT99 and select multiplayer athen start new multiplayer game.
+12. Click on "start" not dedicated on the android tablet.
+13. Find your android's devices IP address by going to settings - About device - scroll down and you should see it.
+14. On the computer go to multiplayer then open location then put in your android's devices IP address.
+15. Click on ok button on the open location window on win98 after the map is loaded on the android device.
+16. Enjoy!!! 😁
 
 Credit goes to the creators of these programs and game ports!
