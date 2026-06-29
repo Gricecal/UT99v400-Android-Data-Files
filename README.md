@@ -54,6 +54,12 @@ Steps to get UT99v400 files on the windows 98 hard drive and run it with multipl
 
 [EDIT] The sound for windows 98 in VMware needs to be fixed somehow.
 I got it to play sound but in UT99 it sounds robotic and weird.
-I will update these instructions when I get it fixed! 😊
+I Have fixed the audio completely!
+
+Setps to Fix the audio:
+
+1. Download this file: https://archive.org/download/Realtek_AC_97_Version_A3.45/Realtek_AC_97_Version_A3.45.zip
+2. Put it in an iso with imgburn
+3. 
 
 Credit goes to the creators of these programs and game ports!
