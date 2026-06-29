@@ -58,8 +58,26 @@ I Have fixed the audio completely!
 
 Setps to Fix the audio:
 
-1. Download this file: https://archive.org/download/Realtek_AC_97_Version_A3.45/Realtek_AC_97_Version_A3.45.zip
-2. Put it in an iso with imgburn
-3. 
+1. Download this: https://archive.org/download/soundblaster16pcidriverdisk/soundblaster%2016%20pci%20driver%20disk.zip
+2. Extract it in a folder. Put it in an iso with imgburn.
+3. Change the CD-ROM in VMware to the sb16 iso you created.
+4. Change the audio sound card to realtek audio driver.
+6. Boot up windows 98 and tun the setup.exe file.
+7. Uncheck all boxes except for Sound Blaster 16.
+8. Click install/next whichever the button says and follow the onscreen prompts and let windows 98 show a Blue Screen Of Death and just wait for it to disappear.
+9. The BSOD should pass and say at the bottom of the screen copying files.
+10. Let it finish copying files and close the setup program. This is notmal.
+11. Restart the windows 98 VM and go to settings then open control panel from the start menu.
+12. Double click System and then click on device manager tab at the top of the window.
+13. click + on Multimedia Audio drivers and click properties then click on driver tab.
+14. Hit the update driver button and then show all drivers.
+15. Scroll to Creative brand of drivers and click it.
+16. Select the driver called "Audio Driver PCI Legacy" and click it and hit the button that says install.
+17. Wait for it to say restart your system and hit yes.
+18. Let it restart and your audio driver should be working now!! 😁
+19. Now finally edit the unreal tournament.ini file and change the audio renderer to WinDrv.WindowsAudioSubsystem
+20. Save the ini file and start UT99 and open the console by hitting Tilde on your keyboard. Type in "Preferences" and hit enter and it should open advanced settings window.
+21. Finally hit the + symbol next to audio and change everything from true to false.
+22. Restart UT99 and the audio should sound good, if not change latency to 45.
 
 Credit goes to the creators of these programs and game ports!
